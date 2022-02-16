@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>World Bank Data Dashboard</title>
+
+<!--import script files needed from plotly and bootstrap-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+</head>
+
+<body>
+
+<!--navbar links-->     
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+   <a class="navbar-brand" href="/index">World Bank Dashboard</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" 
+  data-target="#navbarTogglerDemo02" 
+  aria-controls="navbarTogglerDemo02" aria-expanded="false" 
+  aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+      <li class="nav-item">
+        <a class="nav-link" href="/about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://data.worldbank.org/">World Bank Data</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div style="text-align: center; padding: 10vh; padding-top: 15vh">
+  <h1>About me</h1>
+  
+      <!--social media buttons column-->      
+    <div style="position:relative">
+        <div id="follow-me" class="mt-3" style="padding: 15px; text-align: center; display: block">
+            <a href="https://github.com/feeblefruits">
+                <img src="/static/img/githublogo.png" alt="github" class="img-fluid ml-2" style="width: 80px">
+            </a>
+        </div>
+  
+  <div style="text-align:center; padding: 10vh; padding-top: 5vh">
+    <p>This project is part of Udacity's data science course.</p>
+    <p>The main purposes of this excercise is to become familiar 
+      web development using tools such as Flask, Bootstrap and Plotly.
+      The code used for this project can be found on my Github.</p>
+    <div>
+</div>
+
+<!--footer section-->               
+<div id="footer" class="container"></div>
+
+</body>
+
+
+</html>
